@@ -207,7 +207,7 @@ CREATE TABLE IF NOT EXISTS `sym_entries_data_28` (
 --
 
 INSERT INTO `sym_entries_data_28` (`id`, `entry_id`, `handle`, `value`, `value_formatted`) VALUES
-(36, 24, 'example-image', '<img src=''/image/preview/uploads/example-image.jpg '' /><br/><em>Example Image<em>', '&lt;img src=''/image/preview/uploads/example-image.jpg '' /&gt;&lt;br/&gt;&lt;em&gt;Example Image&lt;em&gt;');
+(36, 24, 'example-image', '<img src=''/image/preview/uploads/example-image.jpg '' /><br/><em>Example Image</em>', '&lt;img src=''/image/preview/uploads/example-image.jpg '' /&gt;&lt;br/&gt;&lt;em&gt;Example Image&lt;/em&gt;');
 
 -- --------------------------------------------------------
 
