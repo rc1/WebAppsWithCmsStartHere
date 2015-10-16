@@ -1,0 +1,27 @@
+node_modules
+symphony/manifest/cache/*
+symphony/manifest/logs/*
+symphony/manifest/tmp/*
+symphony/workspace/images/*
+install-log.txt
+*.log
+*.out
+
+script-*.sh
+express/public
+
+# Webfaction default app root files
+/bin/
+/hello-world.js
+/run/
+/share/
+
+# Ignore local node install
+/n/
+
+!.gitkeep
+!.gitignore
+
+# Uploads
+symphony/workspace/uploads/*
+!symphony/workspace/uploads/.gitkeep
