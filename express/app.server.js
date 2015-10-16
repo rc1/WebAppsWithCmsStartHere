@@ -72,6 +72,7 @@ function startAutoFetchSymphony ( app ) {
                 })
                 .error( function ( err ) {
                     console.error( 'Failed to fetch from symphony', err );
+                    setTimeout( recur, app.fetchFromSymphonyEvery );
                 });
         }());
         resolve( app );
