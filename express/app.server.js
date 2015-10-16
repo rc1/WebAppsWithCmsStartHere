@@ -114,11 +114,6 @@ function makeExpressApp ( app ) {
         
         // ### W.js Clientside
         app.expressApp.get( '/W.min.js', W.jsMinMiddleware() );
-
-        // ### Project Image
-        app.expressApp.get( '/:handle/:image/', function ( req, res, next ) {
-            res.render( 'homepage', makeJadeData( app ) );
-        });
         
         resolve( app );
     });

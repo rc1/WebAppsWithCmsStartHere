@@ -7,8 +7,8 @@ Import symphony.sql into a mysql server
 Add database details to symphony/symphony/config.php
 
 ## Log in
-
-username: admin
+  
+username: admin  
 password: password
 
 Change password
